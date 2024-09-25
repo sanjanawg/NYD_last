@@ -1,0 +1,18 @@
+.loader-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f8f8; /* Optional, can be transparent if you want */
+  z-index: 9999; /* Keep loader on top of other elements */
+}
+
+.loader-gif {
+  width: 100vw; /* Make GIF take up the full width of the screen */
+  height: 100vh; /* Make GIF take up the full height of the screen */
+  object-fit: cover; /* Ensures the GIF scales and covers the screen while maintaining aspect ratio */
+}
